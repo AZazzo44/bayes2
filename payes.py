@@ -13,7 +13,7 @@ def Salm(nchain, init, propsd, X, Y):
   chain[0]=[alpha, beta, gamma, tau]
   for k in range (nchain):
 
-  #alpha
+  # alpha
     logmu=np.zeros((3,6))#on définit mu pour simplifier le code
     for i in range(3):
       for j in range(6):
